@@ -1,15 +1,5 @@
-$(document).ready(function() {
-    $(".animated_link").click(function() {
-      $('html, body').animate({
-        scrollTop: $('#test').offset().top
-      },1000); 
-    });
-  });
+const submitBtn = document.querySelector(".submit-button");
 
-$(document).ready(function(){
-    $(".more").click(function() {
-        $('html, body').animate({
-            scrollTop:$('#test').offset().top
-        },1000)
-    });
+submitBtn.addEventListener("click", (e) => {
+  e.preventDefault();
 });
