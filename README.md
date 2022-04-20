@@ -1,5 +1,5 @@
 # Thomas_Sowell
 A simple Thomas Sowell Webpage created with 
-*HTML*
+_HTML_
 *CSS*
 *JS*
